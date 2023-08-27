@@ -4,3 +4,138 @@ Realizar un objeto de tipo estudiante con sus respectivas caracteristicas "ATRIB
 
 ej: datos de B2 persona
 
+
+
+
+
+
+
+
+
+ String nombre;
+        int edad;
+       String genero;
+
+    public void Estudiante(String nombre, int edad, String genero) {
+            this.nombre = nombre;
+            this.edad = edad;
+            this.genero = genero;
+        }
+
+        public String getNombre() {
+            return nombre;
+        }
+
+        public void setNombre(String nombre) {
+            this.nombre = nombre;
+        }
+
+        public int getEdad() {
+            return edad;
+        }
+
+        public void setEdad(int edad) {
+            this.edad = edad;
+        }
+
+        public String getGenero() {
+            return genero;
+        }
+
+        public void setGenero(String genero) {
+            this.genero = genero;
+        }
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+   DatosTrabajoEnClaseB2 estudiante1 = new DatosTrabajoEnClaseB2 ("lina", 24 ,'f');
+           Scanner scanner = new Scanner(System.in);
+
+           System.out.print("ingrese su nombre: ");
+           String nombre = scanner.nextLine();
+           System.out.println("Nombre: " + estudiante1 + getNombre());
+
+
+           System.out.println("Edad: " + estudiante1 + getEdad());
+           System.out.println("Genero: " + estudiante1 + getGenero());
+
+           estudiante1.setEdad(24);
+           System.out.println("Nueva Edad: " + estudiante1 + getEdad());
+       }
+
+       private static String getGenero() {
+           return null;
+       }
+
+       private static String getEdad() {
+           return null;
+       }
+
+       private static String getNombre() {
+           return null;
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+// estudiante
+
+class TrabajoEnClaseB2 {
+            private String nombre;
+            private int edad;
+            private Character genero;
+
+            public TrabajoEnClaseB2(String nombre, int edad, Character genero) {
+                this.nombre = nombre;
+                this.edad = edad;
+                this.genero = genero;
+            }
+
+            public String getNombre() {
+                return nombre;
+            }
+
+            public void setNombre(String nombre) {
+                this.nombre = nombre;
+            }
+
+            public int getEdad() {
+                return edad;
+            }
+
+            public void setEdad (int edad) {
+                this.edad = edad;
+            }
+
+            public Character getGenero() {
+                return genero;
+            }
+
+            public void setGenero(Character genero) {
+                this.genero = genero;
+            }
+
+        }
+
+    }
+    public void setEdad(int edad) {

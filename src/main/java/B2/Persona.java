@@ -1,6 +1,9 @@
 package B2;
 
 public class Persona {
+    public static void main(String[] args) {
+
+    }
 
     private String nombre;
    private char genero;

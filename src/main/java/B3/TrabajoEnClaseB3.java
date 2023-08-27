@@ -4,6 +4,8 @@ public class TrabajoEnClaseB3 {
 
     public static void main(String[] args) {
 
+        //Invertir el orden de los numeros dados
+
         int [ ] numeros = { 3, 0, -1, 2, 4};
         System.out.println ("Estos son los numeros en orden original" );
 
