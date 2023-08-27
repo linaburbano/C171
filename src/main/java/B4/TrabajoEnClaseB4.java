@@ -1,15 +1,12 @@
 package B4;
-
 import B4.DatosFormulario;
 
 import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class TrabajoEnClaseB4  {
-
+public class TrabajoEnClaseB4 {
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
         Logger logger = Logger.getLogger(TrabajoEnClaseB4.class.getName());
 
@@ -47,13 +44,5 @@ public class TrabajoEnClaseB4  {
         }
     }
 }
-
-
-
-
-
-
-
-
 
 
